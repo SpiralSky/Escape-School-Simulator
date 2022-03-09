@@ -1,1 +1,1 @@
-# Escape-School-SImulator
+# Escape-School-Simulator
