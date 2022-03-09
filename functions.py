@@ -17,7 +17,7 @@ def printfast(text):
     time.sleep(0.01)
 
 def play(text):
-  if text == 1:
+  if int(text) == 1:
     print("")
   else:
     print(Red + "This is not available. Current available difficulties: (1)")

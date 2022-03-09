@@ -13,6 +13,7 @@ from replit import db
 #Variables
 db["menu_difficulty"] += 0
 menu_difficulty = db["menu_difficulty"]
+replit.clear()
 
 while (True):  #Main Code
     printslow(Red + "Welcome to Escape School Simulator")
@@ -23,7 +24,7 @@ while (True):  #Main Code
     menu_option = input(" ")
 
     if int(menu_option) == 1:
-        replit.clear
+        replit.clear()
         sys.stdout.write("Loading.")
         time.sleep(0.5)
         sys.stdout.write(".")
